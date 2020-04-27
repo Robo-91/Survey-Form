@@ -1,0 +1,121 @@
+#survey-sheet {
+	display: block;
+	text-align: center;
+	margin: 50px auto 20% auto;
+	max-width: 700px;
+}
+
+#survey-form {
+	padding: 35px;
+	background: rgba(91, 44, 185, .85);
+	border-radius: 8px;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-align: left;
+	}
+
+#description {
+	text-align: center;
+	font-style: italic;
+	font-family: 'Noto Serif', serif;
+	color: white;
+}
+
+
+
+#career-section {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#name {
+	width: 18%;
+	border: 1px solid black;
+}
+
+#email {
+	width: 18%;
+	border: 1px solid black;
+}
+
+#address {
+	width: 18%;
+	border: 1px solid black;
+}
+
+#number {
+	width: 18%;
+	border: 1px solid black;
+}
+
+#submit {
+	margin-top: 10px;
+	width: 99%;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.heading {
+	padding-bottom: 10px;
+}
+
+#dropdown-section {
+	padding-bottom: 30px;
+}
+
+.checkbox-name {
+	display: inline;
+	padding-right: 10px;
+}
+
+.checkbox-label {
+	width: 120px;
+}
+
+p {
+	padding-bottom: 0;
+}
+
+label {
+	display: block;
+	padding-bottom: 5px;
+	color: white;
+}
+
+h1 {
+	margin-top: 80px;
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+	font-size: 46px;
+	font-weight: bold;
+	color: white;
+}
+
+input {
+	padding: 10px 80% 10px 10px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+select {
+	width: 100%;
+	height: 35px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+textarea {
+	border-radius: 10px;
+	width: 98%;
+}
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1657&q=80");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+	background-color: black;
+	margin: 0; 
+}
