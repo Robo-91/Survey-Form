@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form - FCC Project</title>
+	<link rel="stylesheet" type="text/css" href="SurveyForm.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+
+		<h1 id="title">Survey Form</h1>
+		<p id="description">-Please fill out and submit this form. Thank you!-</p>
+
+		
+		<div id="survey-sheet">
+		<form id="survey-form">
+			<div id="text-section">
+				<label id="name-label">Name</label>
+				<input id="name" type="text" name="name" placeholder="Enter Your Name">
+				<label id="email-label">Email</label>
+				<input id="email" type="email" name="Email" placeholder="Enter Email" required>
+				<label>Address</label>
+				<input id="address" type="text" name="address" placeholder="Enter Address">
+				<label id="number-label">Age</label>
+				<input id="number" type="number" name="age" placeholder="Age" min="0" max="100">
+			</div>
+
+			<div id="career-section">
+				<label class="heading">Do you think Web Development would be a great career?</label>
+				<label for="definitely">
+				<input type="radio" id="maybe" name="careerChoice"> Definitely</label>
+				<label for="careerChoice">
+				<input type="radio" id="careerChoice" name="careerChoice"> Maybe</label>
+				<label for="careerChoice">
+				<input type="radio" id="no" name="careerChoice"> Not at all</label>
+			</div>
+
+			<div id="dropdown-section">
+				<label class="heading">What do you like the most about learning Web Development?</label>
+				<select id="dropdown">
+					<option>--Choose One--</option>
+					<option>Improving problem solving skills</option>
+					<option>Lucrative career</option>
+					<option>Collaborating with others</option>
+					<option>Creating beautiful websites</option>
+				</select>
+			</div>
+
+			<div id="checkbox-section">
+				<label class="heading">What would you like to learn next? <span>(Check all that apply)</span></label>
+
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="HTML"> HTML</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="CSS" placeholder="Css"> CSS</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="BOOTSTRAP"> Bootstrap</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="Javascript"> Javascript</label>		
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="JQUERY"> jQuery</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="REACT"> React</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="NODEJS"> Node.js</label>	
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="EXPRESS"> Express</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="MONGODB"> MongoDB</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="SQL"> SQL</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="GIT"> Git</label>
+				<label class ="checkbox-label"><input class="checkbox-name" type="checkbox" value="GITHUB"> Github</label>
+			</div>
+
+			<div>
+				<label class="heading">Please leave any additional comments!</label>
+				<textarea rows="8" cols="20">Enter your feedback here</textarea>
+			</div>
+
+			<button id="submit">Submit</button>
+		</form>
+	</div>
+
+</body>
+</html>
