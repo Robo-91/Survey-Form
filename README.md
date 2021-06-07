@@ -37,4 +37,4 @@ To view the demo:
 
 ## License
 
-This project uses the following license: [<license_name>](<link>).
+This project uses the following license: [GNU](https://www.gnu.org/licenses/gpl-3.0.en.html).
